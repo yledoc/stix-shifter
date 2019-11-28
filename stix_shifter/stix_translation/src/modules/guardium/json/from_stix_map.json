@@ -1,11 +1,12 @@
 {
-  "x_guardium": {
+  "x-guardium": {
     "fields": {
       "datacategory": ["datacategory"],
       "start": ["QUERY_FROM_DATE"],
       "end": ["QUERY_TO_DATE"],
       "remotesource": ["REMOTE_SOURCE"],
-      "service_name": ["SERVICENAME"]
+      "service_name": ["SERVICENAME"],
+      "database_name": ["DATABASENAME"]
     }
   },
   "START": {
@@ -18,13 +19,7 @@
       "value": ["QUERY_TO_DATE"]
     }
   },
-  "x_guardium_db_info": {
-    "fields": {
-      "database_name": ["DATABASENAME"],
-      "value": ["DATABASENAME"]
-    }
-  },
-  "x_guardium_exception": {
+  "x-guardium-exception": {
     "fields": {
       "errorcode": ["ERRORCODE"]
     }
