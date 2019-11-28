@@ -4,7 +4,6 @@ from stix_shifter.stix_translation.src.patterns.pattern_objects import Observati
 from stix_shifter.stix_translation.src.utils.transformers import TimestampToMilliseconds
 from stix_shifter.stix_translation.src.utils.transformers import TimestampToGuardium
 from stix_shifter.stix_translation.src.json_to_stix import observable
-from stix_shifter.stix_translation.src.utils.stix_pattern_parser import parse_stix
 from stix_shifter.stix_translation.src.utils import transformers
 #
 # Following added by Subroto
@@ -18,10 +17,11 @@ import copy
 
 # Source and destination reference mapping for ip and mac addresses.
 # Change the keys to match the data source fields. The value array indicates the possible data type that can come into from field.
-#REFERENCE_DATA_TYPES = {"QUERY_FROM_DATE": ["start"],
+# REFERENCE_DATA_TYPES = {"QUERY_FROM_DATE": ["start"],
 #                        "QUERY_TO_DATE": ["end"],"OSUser":["%"],"DBUser":"newuser",
 #                        "SHOW_ALIASES":["TRUE","FALSE"],"REMOTE_SOURCE":["%"]}
 REFERENCE_DATA_TYPES = {}
+HOURS_TO_QUERY_IN_THE_PAST = 24
 
 
 class QueryStringPatternTranslator:
@@ -29,15 +29,15 @@ class QueryStringPatternTranslator:
     comparator_lookup = {
         ComparisonExpressionOperators.And: "AND",
         ComparisonExpressionOperators.Or: "OR",
-#        ComparisonComparators.GreaterThan: ">",
-#        ComparisonComparators.GreaterThanOrEqual: ">=",
-#        ComparisonComparators.LessThan: "<",
-#        ComparisonComparators.LessThanOrEqual: "<=",
+        #        ComparisonComparators.GreaterThan: ">",
+        #        ComparisonComparators.GreaterThanOrEqual: ">=",
+        #        ComparisonComparators.LessThan: "<",
+        #        ComparisonComparators.LessThanOrEqual: "<=",
         ComparisonComparators.Equal: "=",
-#        ComparisonComparators.NotEqual: "!=",
-#        ComparisonComparators.Like: "LIKE",
-#        ComparisonComparators.In: "IN",
-#        ComparisonComparators.Matches: 'LIKE',
+        #        ComparisonComparators.NotEqual: "!=",
+        #        ComparisonComparators.Like: "LIKE",
+        #        ComparisonComparators.In: "IN",
+        #        ComparisonComparators.Matches: 'LIKE',
         # ComparisonComparators.IsSubSet: '',
         # ComparisonComparators.IsSuperSet: '',
         ObservationOperators.Or: 'AND',
@@ -45,82 +45,83 @@ class QueryStringPatternTranslator:
         ObservationOperators.And: 'AND'
     }
 
-    def __init__(self, pattern: Pattern, data_model_mapper):
+    def __init__(self, pattern: Pattern, data_model_mapper, timerange):
         self.dmm = data_model_mapper
         self.pattern = pattern
-#
+        # TODO: may need to set this to something other than the default value of 5 minutes
+        # Will apply this value to records older than 24 hours.
+        self.default_time_range = timerange
+
 # Now reportParamsPassed is an json object which is pointing to an array of Json Objects (reportParamsArray)
         self.reportParamsPassed = {}
         self.reportParamsArray = []
         self.reportParamsArraySize = 0
         self.translated = self.parse_expression(pattern)
         self.transformers = transformers.get_all_transformers()
-        #Read reference data
+        # Read reference data
         with open("./stix_shifter/stix_translation/src/modules/guardium/json/reference_data_types4Query.json", 'r') as f_ref:
             self.REFERENCE_DATA_TYPES = json.loads(f_ref.read())
 # Used in the future when custom STIX params could be used
         REFERENCE_DATA_TYPES = self.REFERENCE_DATA_TYPES
 
-        #Read report definition data
+        # Read report definition data
         with open("./stix_shifter/stix_translation/src/modules/guardium/json/guardium_reports_def.json", 'r') as f_rep:
             self.REPORT_DEF = json.loads(f_rep.read())
 
-        #Read report definition data
+        # Read report definition data
         with open("./stix_shifter/stix_translation/src/modules/guardium/json/guardium_report_params_map.json", 'r') as f_repm:
             self.REPORT_PARAMS_MAP = json.loads(f_repm.read())
-#
+
     def set_ReportParamsPasseed(self, paramsArray):
         self.reportParamsArray = paramsArray
         self.reportParamsArraySize = len(paramsArray)
         return
-#
-    def trnsfReportCall2Json(self,repCall):
-    # Convert repCall (string) into an array of JSON.  Note, inside each json obj multiple key/value parmeter are "OR"
-    # Where as each key/value parameter from two json objects are "AND"
+
+    def trnsfReportCall2Json(self, repCall):
+        # Convert repCall (string) into an array of JSON.  Note, inside each json obj multiple key/value parmeter are "OR"
+        # Where as each key/value parameter from two json objects are "AND"
         #
         # Put quote around key
         print(repCall)
         regex = r"([a-zA-Z_]+)(\s=)"
-        out_str = re.sub(regex, r"'\1' :", repCall,0)
+        out_str = re.sub(regex, r"'\1' :", repCall, 0)
 
         # Create the Json structure
         regex1 = r"\(|\)"
-        out_str = re.sub(regex1, "", out_str,0)
-#
+        out_str = re.sub(regex1, "", out_str, 0)
+
         regex2 = r"\sAND\s"
-        out_str = "{" + re.sub(regex2, "} AND {", out_str,0) + "}"
-        #
+        out_str = "{" + re.sub(regex2, "} AND {", out_str, 0) + "}"
+
         regex3 = r"START"
-        out_str = re.sub(regex3, "} AND {START ", out_str,0)
+        out_str = re.sub(regex3, "} AND {START ", out_str, 0)
         # treat START and STOP parameters too
         regex4 = r"(START|STOP)"
-        out_str = re.sub(regex4, r"'\1' : ", out_str,0)
-        #
-        regex5 = r"([Z\'\s]+STOP)"
-        out_str = re.sub(regex5, r"'} AND {'STOP", out_str,0)
-        #
-        regex6 = r"(T|P)\'[\s\:t]+"
-        out_str = re.sub(regex6, r"\1' : ", out_str,0)
+        out_str = re.sub(regex4, r"'\1' : ", out_str, 0)
 
-        #
+        regex5 = r"([Z\'\s]+STOP)"
+        out_str = re.sub(regex5, r"'} AND {'STOP", out_str, 0)
+
+        regex6 = r"(T|P)\'[\s\:t]+"
+        out_str = re.sub(regex6, r"\1' : ", out_str, 0)
+
         # Finalize the structure -- replace by comma and then it becomes string containing
         # an array of Json objects
         regex7 = r"\sOR|\sAND"
-        out_str = re.sub(regex7, r",", out_str,0)
+        out_str = re.sub(regex7, r",", out_str, 0)
 
         # Single quotes have to be replaced by double quotes in order to make it as an Json obj
         regex8 = r"'"
-        out_str = "[" + re.sub(regex8, '"', out_str,0) + "]"
+        out_str = "[" + re.sub(regex8, '"', out_str, 0) + "]"
 
-        #
         jParams_def = json.loads(out_str)
         return jParams_def
-    #
+
     # Guardium report parameters are "AND"ed in a Gaurdium query.
     # Our Json object array contains multiple json objects.  Each object may have one or many key/value paris -- these are report params
     # Problem statement: get an array of json objects containing parameters which support a guardium report call
-    #
-    def buildArrayOfGuardiumReportParams(self,resArray, resPos, curResObj, paramsArray, curPos):
+
+    def buildArrayOfGuardiumReportParams(self, resArray, resPos, curResObj, paramsArray, curPos):
         # initialize
         pArrSize = len(paramsArray)
         if curResObj is None:
@@ -132,8 +133,7 @@ class QueryStringPatternTranslator:
 
         if curPos < pArrSize:
             thisJObj = paramsArray[curPos]
-            #print(thisJObj)
-        #
+
         # Iterate over this json Object
             for param in thisJObj:
                 # Keep a copy of curResObj before any modification from this invocation
@@ -142,20 +142,18 @@ class QueryStringPatternTranslator:
                 print(param)
                 if param not in cp_curResObj:
                     cp_curResObj[param] = thisJObj[param]
-                    #print(cp_curResObj)
+                    # print(cp_curResObj)
                     if (curPos + 1) < pArrSize:
                         resArray = self.buildArrayOfGuardiumReportParams(resArray, resPos, cp_curResObj, paramsArray, curPos)
                     else:
                         resArray.append(cp_curResObj)
                         resPos = resPos + 1
-        #
-        #print(resPos)
-        #print(resArray)
+
         return resArray
-    #
+
     def substitute_ParamsPassed(self, reportDefs, reports_in_query):
-    # for Each report in reportDefs substitue params for report Params Passed
-    #   generate all reports for the query
+        # for Each report in reportDefs substitue params for report Params Passed
+        #   generate all reports for the query
         for reportName in reportDefs:
             report = reportDefs[reportName]
             print(report)
@@ -168,18 +166,23 @@ class QueryStringPatternTranslator:
                     value = self.reportParamsPassed[param]
                 print(value)
                 print(report["reportParameter"][param]["info"])
-     #
+
      # Use START and STOP  instead of default to time parameter
                 if report["reportParameter"][param]["info"] == "START":
-                    value = self.reportParamsPassed["START"]
+                    # Values come in formated as '2019-01-28T12:24:01.009'
+                    value = self.reportParamsPassed.get('START')
+                    if (not value):
+                        # Default timerange defined in stix_translation
+                        value = self._set_past_time(self.default_time_range)
                     print("START")
                     print(value)
                 if report["reportParameter"][param]["info"] == "STOP":
-                    value = self.reportParamsPassed["STOP"]
+                    value = self.reportParamsPassed.get('STOP')
+                    if (not value):
+                        value = self._set_past_time()
                     print("STOP")
                     print(value)
-      #
-      #Transform the value or use it as-is
+      # Transform the value or use it as-is
                 if "transformer" in report["reportParameter"][param]:
                     transformer = self.transformers[report["reportParameter"][param]["transformer"]]
                     report["reportParameter"][param] = transformer.transform(value)
@@ -187,9 +190,9 @@ class QueryStringPatternTranslator:
                     report["reportParameter"][param] = value
 
             reports_in_query.append(report)
-#
+
         return reports_in_query
-#
+
     def get_report_params(self):
         reports_in_query = []
         for repParamIndex in range(self.reportParamsArraySize):
@@ -200,19 +203,20 @@ class QueryStringPatternTranslator:
                     reportDefs = None
                 else:
                     reportDefs = copy.deepcopy(self.REPORT_DEF[dataCategory])
-    #
+
             else:
                 reportDefs = self.generate_ReportDefs()
             # substitue Params
-            reports_in_query = self.substitute_ParamsPassed(reportDefs,reports_in_query)
+            reports_in_query = self.substitute_ParamsPassed(reportDefs, reports_in_query)
 
         return reports_in_query
 # Report Defintions list
+
     def generate_ReportDefs(self):
-    # for Each param passed get all reports pertaining to that params  -- this is a set of param reports
-    # then take intersection of each set
-    # if the intersection is null use the default Category
-    #
+        # for Each param passed get all reports pertaining to that params  -- this is a set of param reports
+        # then take intersection of each set
+        # if the intersection is null use the default Category
+        #
         reportSet = None
         param_map = self.REPORT_PARAMS_MAP["maps"]
         param_cmn = self.REPORT_PARAMS_MAP["common"]
@@ -232,17 +236,15 @@ class QueryStringPatternTranslator:
                     reportSet = set(pSet)
                 else:
                     reportSet = reportSet.intersection(pSet)
-            #
 
         # Check if reportSet is null
         if (not bool(reportSet)):
             reportSet = self.REPORT_PARAMS_MAP["defaultReports"]
-#
 
         # Now we have to create reportDefs from this reportSet
         # Report set --> dataCategory:reportName
         # Iterate through self.reportDefs and pick the reports and place them in the report Defs
-        #
+
         reportDefs = {}
 
         for key in reportSet:
@@ -250,16 +252,15 @@ class QueryStringPatternTranslator:
 
             if dataCategory not in self.REPORT_DEF:
                 raise RuntimeError(
-                        "Error in parameter mapping file (data category): " + str(dataCategory) + " not there. Ingored.")
+                    "Error in parameter mapping file (data category): " + str(dataCategory) + " not there. Ingored.")
             else:
                 dcReports = copy.deepcopy(self.REPORT_DEF[dataCategory])
 
                 if report not in dcReports:
                     raise RuntimeError(
-                            "Error in parameter mapping file (report name): " + str(report) + " not there. Ingored.")
+                        "Error in parameter mapping file (report name): " + str(report) + " not there. Ingored.")
                 else:
                     reportDefs[report] = dcReports[report]
-            #
 
         return reportDefs
 
@@ -344,6 +345,14 @@ class QueryStringPatternTranslator:
     @staticmethod
     def _is_reference_value(stix_field):
         return stix_field == 'src_ref.value' or stix_field == 'dst_ref.value'
+
+    @staticmethod
+    def _set_past_time(timerange_in_minutes=0):
+        go_back_in_hours = datetime.timedelta(hours=HOURS_TO_QUERY_IN_THE_PAST)
+        go_back_in_minutes = datetime.timedelta(minutes=timerange_in_minutes)
+        current_time = datetime.datetime.utcnow()
+        value = current_time - go_back_in_hours - go_back_in_minutes
+        return value.strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + 'Z'
 
     def _parse_expression(self, expression, qualifier=None) -> str:
         if isinstance(expression, ComparisonExpression):  # Base Case
@@ -439,22 +448,16 @@ class QueryStringPatternTranslator:
 
 
 def translate_pattern(pattern: Pattern, data_model_mapping, options):
+    timerange = options.get('timerange')
 
-    # Converting query object to datasource query
-    # timerange set to 24 hours for Guardium; timerange is provided in minutes (as delta)
-    timerange = 24 * 60 * 60
-    parsed_stix = parse_stix(pattern,timerange)
-
-#
-    guardiumQueryTranslator = QueryStringPatternTranslator(pattern, data_model_mapping)
+    guardiumQueryTranslator = QueryStringPatternTranslator(pattern, data_model_mapping, timerange)
     reportCall = guardiumQueryTranslator.translated
 
     # Add space around START STOP qualifiers
     reportCall = re.sub("START", "START ", reportCall)
     reportCall = re.sub("STOP", " STOP ", reportCall)
 
-#Subroto: I did not change the code much just adapted to get the report parameters
-#Subroto: added code to support report search parameters are "and" when sent to Guardium
+# Subroto: added code to support report search parameters are "and" when sent to Guardium
 #
 #   Limit recursive call to build an array of report parameters
 #   Minimum is 500.
@@ -468,8 +471,6 @@ def translate_pattern(pattern: Pattern, data_model_mapping, options):
     outArray = guardiumQueryTranslator.buildArrayOfGuardiumReportParams(resArray, resPos, None, jRepCall, None)
     guardiumQueryTranslator.set_ReportParamsPasseed(outArray)
 
-    #
-    # get report hearder -- multiple for
     reportHeader = guardiumQueryTranslator.get_report_params()
     if (reportHeader != None):
         # Change return statement as required to fit with data source query language.
@@ -477,5 +478,5 @@ def translate_pattern(pattern: Pattern, data_model_mapping, options):
         # A single query string, or an array of query strings may be returned
         return "{}".format(reportHeader)
     else:
-        reportHeader = {"ID":1001, "message": "Could not generate query -- issue with dataCategory."}
+        reportHeader = {"ID": 1001, "message": "Could not generate query -- issue with dataCategory."}
         return reportHeader
