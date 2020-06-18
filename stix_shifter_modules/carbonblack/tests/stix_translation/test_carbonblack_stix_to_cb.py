@@ -66,6 +66,31 @@ class TestQueryTranslator(unittest.TestCase, object):
         queries = to_json([{"query": "process_name:cmd.exe and -(username:SYSTEM)", "dialect": "process"}])
         _test_query_assertions(query, queries)
 
+    def test_duplicated_mapping_in_process_binary(self):
+        test_options = {"time_range": None} 
+        stix_pattern = "[x-com-cb-response:os_type = 'Windows']"
+        query = translation.translate(module, 'query', '{}', stix_pattern, options=test_options)
+        # Query defaults to binary if mapping is available for both process and binary
+        queries = to_json([{"query": "os_type:Windows", "dialect": "binary"}])
+        _test_query_assertions(query, queries)
+
+    def test_duplicated_mapping_in_process_binary_and_unique_process(self):
+        test_options = {"time_range": None} 
+        stix_pattern = "[x-com-cb-response:os_type = 'Windows' OR x-com-cb-response:crossproc_name = 'SomeName']"
+        query = translation.translate(module, 'query', '{}', stix_pattern, options=test_options)
+        # Both fields are mapped to process but only one is mapped to binary so use a process query
+        queries = to_json([{"query": "os_type:Windows or crossproc_name:SomeName", "dialect": "process"}])
+        _test_query_assertions(query, queries)
+
+    # This should be failing since each property exists in only one mapping. This shouldn't be getting combined like this.
+    def test_unique_mapping_in_process_and_binary(self):
+        test_options = {"time_range": None} 
+        stix_pattern = "[x-com-cb-response:host_count = 50 OR x-com-cb-response:crossproc_name = 'SomeName']"
+        query = translation.translate(module, 'query', '{}', stix_pattern, options=test_options)
+        # One field is mapped to process and one is mapped to binary so need to split into two queries
+        queries = to_json([{"query": "host_count:50", "dialect": "binary"}, {"query": "crossproc_name:SomeName", "dialect": "process"}])
+        _test_query_assertions(query, queries)
+
     def test_custom_mapping(self):
         custom_mappings = {
             "default": {
