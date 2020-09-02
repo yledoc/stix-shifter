@@ -14,31 +14,31 @@
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
             "created": "2020-01-03T17:19:31.981Z",
             "modified": "2020-01-03T17:19:31.981Z",
+            "first_observed": "2020-01-03T23:58:00.151Z",
+            "last_observed": "2020-01-03T23:58:00.151Z",
+            "number_observed": 1,
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
                     "value": "192.168.1.1"
                 },
-            "x-guardium": {
-				"log_source_id": "PII Database",
-				"severity": "Critical"				
-            },
-			"x-ibm-finding": {
-				"src_database_user_ref": "KHENDERSON",
-				"src_ip_ref": "192.168.1.1",
-				"dst_ip_ref": "192.168.1.2",
-				"dst_application_ref": "SQL",
-				"src_application_ref": "QRadar",
-				"name": "KHENDERSON",
-				"details": "This is supposed to be secured data",
-				"dst_device": "HOSTNAME",
-				"finding_type": "Data Security",
-				"source": "Not sure yet"
-			},
-            "first_observed": "2020-01-03T23:58:00.151Z",
-            "last_observed": "2020-01-03T23:58:00.151Z",
-            "number_observed": 1
-        }
-	}
+                "x-guardium": {
+                    "log_source_id": "PII Database",
+                    "severity": "Critical"				
+                },
+                "x-ibm-finding": {
+                    "src_database_user_ref": "KHENDERSON",
+                    "src_ip_ref": "192.168.1.1",
+                    "dst_ip_ref": "192.168.1.2",
+                    "dst_application_ref": "SQL",
+                    "src_application_ref": "QRadar",
+                    "name": "KHENDERSON",
+                    "details": "This is supposed to be secured data",
+                    "dst_device": "HOSTNAME",
+                    "finding_type": "Data Security",
+                    "source": "Not sure yet"
+                }
+            }
+	    }
 	]
 }
