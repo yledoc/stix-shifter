@@ -15,7 +15,7 @@
             "created": "2020-01-03T17:19:31.981Z",
             "modified": "2020-01-03T17:19:31.981Z",
             "first_observed": "2020-01-03T23:58:00.151Z",
-            "last_observed": "2020-01-03T23:58:00.151Z"
+            "last_observed": "2020-01-03T23:58:00.151Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
