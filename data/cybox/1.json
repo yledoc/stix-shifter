@@ -46,6 +46,39 @@
                     "dst_byte_count": 122956560
                 }
             }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--AA82dd61-cc41-485b-b608-d278469e6999",
+            "created_by_ref": "identity--33fa3e56-6511-40de-bc69-c5ffeb3838f9",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.12"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "start": "2019-07-18T19:06:20.459257Z",
+                    "end": "2019-07-18T19:08:10.111663Z",
+                    "is_active": false,
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 58767,
+                    "dst_port": 443,
+                    "protocols": [
+                        "ip",
+                        "tcp",
+                        "tls"
+                    ],
+                    "src_byte_count": 125194360,
+                    "dst_byte_count": 122956560
+                }
+            }
         }
     ]
 }
