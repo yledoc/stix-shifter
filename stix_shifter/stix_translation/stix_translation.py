@@ -84,7 +84,6 @@ class StixTranslation:
 
             module, dialects = process_dialects(module, options)   
             try:
-                validated_options = param_validator(module, options, 'connection.options')
                 connector_module = importlib.import_module("stix_shifter_modules." + module + ".entry_point")
             except Exception as ex:
                 raise UnsupportedDataSourceException("{} is an unsupported data source.".format(module))
