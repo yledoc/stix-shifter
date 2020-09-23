@@ -23,7 +23,7 @@ translation = stix_translation.StixTranslation()
 
 
 def _parse_query(stix_pattern):
-    return translation.translate('qradar', 'parse', '{}', stix_pattern)
+    return translation.translate(None, 'parse', '{}', stix_pattern)
 
 
 class TestStixParsing(unittest.TestCase, object):

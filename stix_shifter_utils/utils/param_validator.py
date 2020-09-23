@@ -11,15 +11,18 @@ def get_merged_config(module):
         base_path = ss_modules_path.__path__[0]
     else:
         base_path = ss_modules_path.__path__._path[0]
-    module_config_path = path.join(base_path, module, 'configuration', 'config.json')
     base_config_path = path.join(base_path, 'config.json')
-    with open(module_config_path) as mapping_file:
-        module_configs = json.load(mapping_file)
+    configs = {}
     if path.isfile(base_config_path):
         with open(base_config_path) as mapping_file:
-            base_configs = json.load(mapping_file)
-        module_configs = merge(base_configs, module_configs)
-    return module_configs
+            configs = json.load(mapping_file)
+    if module:
+        module_config_path = path.join(base_path, module, 'configuration', 'config.json')
+        with open(module_config_path) as mapping_file:
+            module_configs = json.load(mapping_file)
+        configs = merge(configs, module_configs)
+    return configs
+
 
 
 def modernize_objects(module, params):

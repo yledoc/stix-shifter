@@ -188,7 +188,8 @@ def main():
         module = process_dialects(args_module_dialects, options)[0]
 
         try:
-            importlib.import_module("stix_shifter_modules." + module + ".entry_point")
+            if (not args.command == TRANSLATE) or (not args.translate_type == stix_translation.PARSE):
+                importlib.import_module("stix_shifter_modules." + module + ".entry_point")
         except Exception as ex:
             log.debug(exception_to_string(ex))
             log.error('Module {} not found'.format(module))

@@ -62,9 +62,29 @@ class StixTranslation:
         :rtype: str
         """
 
-        module, dialects = process_dialects(module, options)
         try:
+
+            if translate_type == QUERY or translate_type == PARSE:
+                # Increase the python recursion limit to allow ANTLR to parse large patterns
+                current_recursion_limit = sys.getrecursionlimit()
+                if current_recursion_limit < recursion_limit:
+                    self.logger.debug("Changing Python recursion limit from {} to {}".format(current_recursion_limit, recursion_limit))
+                    sys.setrecursionlimit(recursion_limit)
+
+            if translate_type == PARSE:
+                validated_options = param_validator(None, options, 'connection.options')
+                self._validate_pattern(data)
+                antlr_parsing = generate_query(data)
+                # Extract pattern elements into parsed stix object
+                parsed_stix_dictionary = parse_stix(antlr_parsing, validated_options['time_range'])
+                parsed_stix = parsed_stix_dictionary['parsed_stix']
+                start_time = parsed_stix_dictionary['start_time']
+                end_time = parsed_stix_dictionary['end_time']
+                return {'parsed_stix': parsed_stix, 'start_time': start_time, 'end_time': end_time}
+
+            module, dialects = process_dialects(module, options)   
             try:
+                validated_options = param_validator(module, options, 'connection.options')
                 connector_module = importlib.import_module("stix_shifter_modules." + module + ".entry_point")
             except Exception as ex:
                 raise UnsupportedDataSourceException("{} is an unsupported data source.".format(module))
@@ -81,58 +101,42 @@ class StixTranslation:
             if len(dialects) == 0:
                 dialects = entry_point.get_dialects(language != 'stix')
 
-            if translate_type == QUERY or translate_type == PARSE:
-                # Increase the python recursion limit to allow ANTLR to parse large patterns
-                current_recursion_limit = sys.getrecursionlimit()
-                if current_recursion_limit < recursion_limit:
-                    self.logger.debug("Changing Python recursion limit from {} to {}".format(current_recursion_limit, recursion_limit))
-                    sys.setrecursionlimit(recursion_limit)
+            if translate_type == QUERY:
+                # Carbon Black combines the mapping files into one JSON using process and binary keys.
+                # The query constructor has some logic around which of the two are used.
+                queries = []
+                unmapped_stix_collection = []
+                dialects_used = 0
+                for dialect in dialects:
+                    query_translator = entry_point.get_query_translator(dialect)
+                    if not query_translator.get_language() or language == query_translator.get_language():
+                        dialects_used += 1
+                        antlr_parsing = None
+                        if query_translator.get_language() == 'stix':
+                            if validated_options.get('validate_pattern'):
+                                self._validate_pattern(data)
+                            antlr_parsing = generate_query(data)
+                            if query_translator and not isinstance(query_translator, EmptyQueryTranslator):
+                                stripped_parsing = strip_unmapped_attributes(antlr_parsing, query_translator)
+                                antlr_parsing = stripped_parsing.get('parsing')
+                                unmapped_stix = stripped_parsing.get('unmapped_stix')
+                                if unmapped_stix:
+                                    unmapped_stix_collection.append(unmapped_stix)
+                                if not antlr_parsing:
+                                    continue
+                        translated_queries = entry_point.transform_query(dialect, data, antlr_parsing)
+                        if isinstance(translated_queries, str):
+                            translated_queries = [translated_queries]
+                        for query in translated_queries:
+                            queries.append(query)
+                if not dialects_used:
+                    raise UnsupportedLanguageException(language)
+                if not queries:
+                    raise DataMappingException(
+                        "{} {}".format(MAPPING_ERROR, unmapped_stix_collection)
+                    )
 
-                if translate_type == QUERY:
-                    # Carbon Black combines the mapping files into one JSON using process and binary keys.
-                    # The query constructor has some logic around which of the two are used.
-                    queries = []
-                    unmapped_stix_collection = []
-                    dialects_used = 0
-                    for dialect in dialects:
-                        query_translator = entry_point.get_query_translator(dialect)
-                        if not query_translator.get_language() or language == query_translator.get_language():
-                            dialects_used += 1
-                            antlr_parsing = None
-                            if query_translator.get_language() == 'stix':
-                                if validated_options.get('validate_pattern'):
-                                    self._validate_pattern(data)
-                                antlr_parsing = generate_query(data)
-                                if query_translator and not isinstance(query_translator, EmptyQueryTranslator):
-                                    stripped_parsing = strip_unmapped_attributes(antlr_parsing, query_translator)
-                                    antlr_parsing = stripped_parsing.get('parsing')
-                                    unmapped_stix = stripped_parsing.get('unmapped_stix')
-                                    if unmapped_stix:
-                                        unmapped_stix_collection.append(unmapped_stix)
-                                    if not antlr_parsing:
-                                        continue
-                            translated_queries = entry_point.transform_query(dialect, data, antlr_parsing)
-                            if isinstance(translated_queries, str):
-                                translated_queries = [translated_queries]
-                            for query in translated_queries:
-                                queries.append(query)
-                    if not dialects_used:
-                        raise UnsupportedLanguageException(language)
-                    if not queries:
-                        raise DataMappingException(
-                            "{} {}".format(MAPPING_ERROR, unmapped_stix_collection)
-                        )
-
-                    return {'queries': queries}
-                else:
-                    self._validate_pattern(data)
-                    antlr_parsing = generate_query(data)
-                    # Extract pattern elements into parsed stix object
-                    parsed_stix_dictionary = parse_stix(antlr_parsing, validated_options['time_range'])
-                    parsed_stix = parsed_stix_dictionary['parsed_stix']
-                    start_time = parsed_stix_dictionary['start_time']
-                    end_time = parsed_stix_dictionary['end_time']
-                    return {'parsed_stix': parsed_stix, 'start_time': start_time, 'end_time': end_time}
+                return {'queries': queries}
 
             elif translate_type == RESULTS:
                 # Converting data from the datasource to STIX objects
