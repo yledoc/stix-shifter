@@ -1,4 +1,4 @@
-# Generated from stix_shifter_utils/stix_translation/src/patterns/grammar/STIXPattern.g4 by ANTLR 4.8
+# Generated from STIXPattern.g4 by ANTLR 4.8
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
