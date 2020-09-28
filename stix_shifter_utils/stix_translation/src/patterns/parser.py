@@ -118,7 +118,7 @@ class STIXQueryBuilder(STIXPatternListener):
     def exitOrderableLiteral(self, ctx: STIXPatternParser.OrderableLiteralContext):
         """  Can be IntPosLiteral, IntNegLiteral, FloatPosLiteral, FloatNegLiteral, stringLiteral, BinaryLiteral, HexLiteral, TimestampLiteral """
         logger.debug("{} {} {}".format("OrderableLiteral", ctx, ctx.getText()))
-        if ctx.stringLiteral():
+        if ctx.StringLiteral():
             pass  # Strings should have already been pushed onto the stack
         elif ctx.IntPosLiteral() or ctx.IntNegLiteral():
             self.push(int(ctx.getText()))
@@ -146,7 +146,7 @@ class STIXQueryBuilder(STIXPatternListener):
         exp2 = self.pop()
         self.push(CombinedComparisonExpression(exp1, exp2, ComparisonExpressionOperators.Or))
 
-    def exitStringLiteral(self, ctx: STIXPatternParser.StringLiteralContext) -> None:
+    def exitStringLiteral(self, ctx: STIXPatternParser.StringLiteral) -> None:
         logger.debug("{} {} {}".format("String", ctx, ctx.getText()))
         self.push(ctx.getText().strip("'").replace("\\\\", "\\"))
 

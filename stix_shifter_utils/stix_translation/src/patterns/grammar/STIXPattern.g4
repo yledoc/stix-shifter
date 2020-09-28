@@ -32,36 +32,28 @@ observationExpression
   ;
 
 comparisonExpression
-  : <assoc=left> comparisonExpression OR comparisonExpression   # comparisonExpressionOred
-  | comparisonExpressionAnd                                     # comparisonExpressionAnd_
+  : <assoc=left> comparisonExpression OR comparisonExpression
+  | comparisonExpressionAnd
   ;
 
 comparisonExpressionAnd
-  : <assoc=left> comparisonExpressionAnd AND comparisonExpressionAnd # comparisonExpressionAnded
-  | propTest  # comparisonExpressionAndPropTest
+  : <assoc=left> comparisonExpressionAnd AND comparisonExpressionAnd
+  | propTest
   ;
 
 propTest
-  : objectPath NOT? (EQ|NEQ) primitiveLiteral           # propTestEqual
-  | objectPath NOT? (GT|LT|GE|LE) orderableLiteral      # propTestOrder
-  | objectPath NOT? IN setLiteral                       # propTestSet
-  | objectPath NOT? LIKE stringLiteral                  # propTestLike
-  | objectPath NOT? MATCHES stringLiteral               # propTestRegex
-  | objectPath NOT? ISSUBSET stringLiteral              # propTestIsSubset
-  | objectPath NOT? ISSUPERSET stringLiteral            # propTestIsSuperset
-  | LPAREN comparisonExpression RPAREN                  # propTestParen
-  ;
-
-orderingComparator:
-  (GT|LT|GE|LE)
-  ;
-
-stringLiteral  // Add parse rule to make getting string literals easier
-  : StringLiteral
+  : objectPath NOT? (EQ|NEQ) primitiveLiteral       # propTestEqual
+  | objectPath NOT? (GT|LT|GE|LE) orderableLiteral  # propTestOrder
+  | objectPath NOT? IN setLiteral                   # propTestSet
+  | objectPath NOT? LIKE StringLiteral              # propTestLike
+  | objectPath NOT? MATCHES StringLiteral           # propTestRegex
+  | objectPath NOT? ISSUBSET StringLiteral          # propTestIsSubset
+  | objectPath NOT? ISSUPERSET StringLiteral        # propTestIsSuperset
+  | LPAREN comparisonExpression RPAREN              # propTestParen
   ;
 
 startStopQualifier
-  : START TimestampLiteral STOP TimestampLiteral
+  : START StringLiteral STOP StringLiteral
   ;
 
 withinQualifier
@@ -76,10 +68,6 @@ objectPath
   : objectType COLON firstPathComponent objectPathComponent?
   ;
 
-// The following two simple rules are for programmer convenience: you
-// will get "notification" of object path components in order by the
-// generated parser, which enables incremental processing during
-// parsing.
 objectType
   : IdentifierWithoutHyphen
   | IdentifierWithHyphen
@@ -111,7 +99,7 @@ orderableLiteral
   | IntNegLiteral
   | FloatPosLiteral
   | FloatNegLiteral
-  | stringLiteral
+  | StringLiteral
   | BinaryLiteral
   | HexLiteral
   | TimestampLiteral
@@ -120,7 +108,7 @@ orderableLiteral
 IntNegLiteral :
   '-' ('0' | [1-9] [0-9]*)
   ;
-	
+
 IntPosLiteral :
   '+'? ('0' | [1-9] [0-9]*)
   ;
@@ -128,7 +116,7 @@ IntPosLiteral :
 FloatNegLiteral :
   '-' [0-9]* '.' [0-9]+
   ;
-	
+
 FloatPosLiteral :
   '+'? [0-9]* '.' [0-9]+
   ;
@@ -139,12 +127,12 @@ HexLiteral :
 
 BinaryLiteral :
   'b' QUOTE
-	  ( Base64Char Base64Char Base64Char Base64Char )*
-	  ( (Base64Char Base64Char Base64Char Base64Char )
-	  | (Base64Char Base64Char Base64Char ) '='
-	  | (Base64Char Base64Char ) '=='
-	  )
-	  QUOTE
+  ( Base64Char Base64Char Base64Char Base64Char )*
+  ( (Base64Char Base64Char Base64Char Base64Char )
+  | (Base64Char Base64Char Base64Char ) '='
+  | (Base64Char Base64Char ) '=='
+  )
+  QUOTE
   ;
 
 StringLiteral :
@@ -223,7 +211,6 @@ MINUS     : '-' ;
 POWER_OP  : '^' ;
 DIVIDE    : '/' ;
 ASTERISK  : '*';
-
 
 fragment HexDigit: [A-Fa-f0-9];
 fragment TwoHexDigits: HexDigit HexDigit;

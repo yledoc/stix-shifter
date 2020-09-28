@@ -54,23 +54,13 @@ class STIXPatternVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by STIXPatternParser#comparisonExpressionAnd_.
-    def visitComparisonExpressionAnd_(self, ctx:STIXPatternParser.ComparisonExpressionAnd_Context):
+    # Visit a parse tree produced by STIXPatternParser#comparisonExpression.
+    def visitComparisonExpression(self, ctx:STIXPatternParser.ComparisonExpressionContext):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by STIXPatternParser#comparisonExpressionOred.
-    def visitComparisonExpressionOred(self, ctx:STIXPatternParser.ComparisonExpressionOredContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by STIXPatternParser#comparisonExpressionAndPropTest.
-    def visitComparisonExpressionAndPropTest(self, ctx:STIXPatternParser.ComparisonExpressionAndPropTestContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by STIXPatternParser#comparisonExpressionAnded.
-    def visitComparisonExpressionAnded(self, ctx:STIXPatternParser.ComparisonExpressionAndedContext):
+    # Visit a parse tree produced by STIXPatternParser#comparisonExpressionAnd.
+    def visitComparisonExpressionAnd(self, ctx:STIXPatternParser.ComparisonExpressionAndContext):
         return self.visitChildren(ctx)
 
 
@@ -111,16 +101,6 @@ class STIXPatternVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by STIXPatternParser#propTestParen.
     def visitPropTestParen(self, ctx:STIXPatternParser.PropTestParenContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by STIXPatternParser#orderingComparator.
-    def visitOrderingComparator(self, ctx:STIXPatternParser.OrderingComparatorContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by STIXPatternParser#stringLiteral.
-    def visitStringLiteral(self, ctx:STIXPatternParser.StringLiteralContext):
         return self.visitChildren(ctx)
 
 

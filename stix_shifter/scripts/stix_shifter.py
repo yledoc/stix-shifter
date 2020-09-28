@@ -303,7 +303,7 @@ def main():
             data = '\n'.join(data_lines)
         if args.stix_validator:
             options['stix_validator'] = args.stix_validator
-        recursion_limit = args.recursion_limit if args.recursion_limit else 20000
+        recursion_limit = args.recursion_limit if args.recursion_limit else 1000
         translation = stix_translation.StixTranslation()
         result = translation.translate(
             args.module, args.translate_type, args.data_source, data, options=options, recursion_limit=recursion_limit)

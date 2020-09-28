@@ -89,39 +89,21 @@ class STIXPatternListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by STIXPatternParser#comparisonExpressionAnd_.
-    def enterComparisonExpressionAnd_(self, ctx:STIXPatternParser.ComparisonExpressionAnd_Context):
+    # Enter a parse tree produced by STIXPatternParser#comparisonExpression.
+    def enterComparisonExpression(self, ctx:STIXPatternParser.ComparisonExpressionContext):
         pass
 
-    # Exit a parse tree produced by STIXPatternParser#comparisonExpressionAnd_.
-    def exitComparisonExpressionAnd_(self, ctx:STIXPatternParser.ComparisonExpressionAnd_Context):
-        pass
-
-
-    # Enter a parse tree produced by STIXPatternParser#comparisonExpressionOred.
-    def enterComparisonExpressionOred(self, ctx:STIXPatternParser.ComparisonExpressionOredContext):
-        pass
-
-    # Exit a parse tree produced by STIXPatternParser#comparisonExpressionOred.
-    def exitComparisonExpressionOred(self, ctx:STIXPatternParser.ComparisonExpressionOredContext):
+    # Exit a parse tree produced by STIXPatternParser#comparisonExpression.
+    def exitComparisonExpression(self, ctx:STIXPatternParser.ComparisonExpressionContext):
         pass
 
 
-    # Enter a parse tree produced by STIXPatternParser#comparisonExpressionAndPropTest.
-    def enterComparisonExpressionAndPropTest(self, ctx:STIXPatternParser.ComparisonExpressionAndPropTestContext):
+    # Enter a parse tree produced by STIXPatternParser#comparisonExpressionAnd.
+    def enterComparisonExpressionAnd(self, ctx:STIXPatternParser.ComparisonExpressionAndContext):
         pass
 
-    # Exit a parse tree produced by STIXPatternParser#comparisonExpressionAndPropTest.
-    def exitComparisonExpressionAndPropTest(self, ctx:STIXPatternParser.ComparisonExpressionAndPropTestContext):
-        pass
-
-
-    # Enter a parse tree produced by STIXPatternParser#comparisonExpressionAnded.
-    def enterComparisonExpressionAnded(self, ctx:STIXPatternParser.ComparisonExpressionAndedContext):
-        pass
-
-    # Exit a parse tree produced by STIXPatternParser#comparisonExpressionAnded.
-    def exitComparisonExpressionAnded(self, ctx:STIXPatternParser.ComparisonExpressionAndedContext):
+    # Exit a parse tree produced by STIXPatternParser#comparisonExpressionAnd.
+    def exitComparisonExpressionAnd(self, ctx:STIXPatternParser.ComparisonExpressionAndContext):
         pass
 
 
@@ -194,24 +176,6 @@ class STIXPatternListener(ParseTreeListener):
 
     # Exit a parse tree produced by STIXPatternParser#propTestParen.
     def exitPropTestParen(self, ctx:STIXPatternParser.PropTestParenContext):
-        pass
-
-
-    # Enter a parse tree produced by STIXPatternParser#orderingComparator.
-    def enterOrderingComparator(self, ctx:STIXPatternParser.OrderingComparatorContext):
-        pass
-
-    # Exit a parse tree produced by STIXPatternParser#orderingComparator.
-    def exitOrderingComparator(self, ctx:STIXPatternParser.OrderingComparatorContext):
-        pass
-
-
-    # Enter a parse tree produced by STIXPatternParser#stringLiteral.
-    def enterStringLiteral(self, ctx:STIXPatternParser.StringLiteralContext):
-        pass
-
-    # Exit a parse tree produced by STIXPatternParser#stringLiteral.
-    def exitStringLiteral(self, ctx:STIXPatternParser.StringLiteralContext):
         pass
 
 
