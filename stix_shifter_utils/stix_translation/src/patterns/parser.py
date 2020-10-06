@@ -46,7 +46,7 @@ class STIXQueryBuilder(STIXPatternListener):
         logger.debug("{} {} {}".format("PrimitiveLiteral", ctx, ctx.getText()))
         # This can be TimestampLiteral or BoolLiteral.  These should be handed with more specific targets, e.g.
         #   exitTimestampLiteral and exitBoolLiteral.
-        # self.push(ctx.getText().strip("'"))
+        self.push(ctx.getText().strip("'"))
 
     def exitPropTestRegex(self, ctx: STIXPatternParser.PropTestRegexContext) -> None:
         logger.debug("{} {} {}".format("PropTestRegex", ctx, ctx.getText()))
@@ -186,8 +186,8 @@ class STIXQueryBuilder(STIXPatternListener):
         qualifier_text = qualifier.getText()  # Ex: "START'2016-06-01T00:00:00Z'STOP'2016-06-01T01:11:11Z'"
         observation = ctx.observationExpression()
         expression = self.pop()
-        start_time = str(qualifier.TimestampLiteral(i=0))
-        stop_time = str(qualifier.TimestampLiteral(i=1))
+        start_time = str(qualifier.StringLiteral(i=0))
+        stop_time = str(qualifier.StringLiteral(i=1))
         observation_expression_with_qualifier = StartStopQualifier(qualifier_text, expression, start_time, stop_time)
         self.push(observation_expression_with_qualifier)
 
