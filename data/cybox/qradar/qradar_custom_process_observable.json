@@ -85,7 +85,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:00.151Z",
@@ -214,7 +214,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -241,7 +241,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:00.151Z",
@@ -370,7 +370,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -397,7 +397,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -526,7 +526,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -553,7 +553,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -682,7 +682,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -709,7 +709,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -838,7 +838,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -865,7 +865,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:02 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:02 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:02.656Z",
@@ -994,7 +994,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1021,7 +1021,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:02 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:02 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:03.660Z",
@@ -1150,7 +1150,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1177,7 +1177,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:03 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:03 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:03.660Z",
@@ -1306,7 +1306,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1333,7 +1333,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:03 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:03 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:04.663Z",
@@ -1462,7 +1462,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1489,7 +1489,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:04 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:04 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:04.663Z",
@@ -1618,7 +1618,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1645,7 +1645,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:04 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:04 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:05.168Z",
@@ -1774,7 +1774,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1801,7 +1801,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:05 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:05 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:05.168Z",
@@ -1930,7 +1930,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -1957,7 +1957,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:05 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:05 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:06.569Z",
@@ -2086,7 +2086,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2113,7 +2113,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:06 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:06 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:06.569Z",
@@ -2242,7 +2242,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2269,7 +2269,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:06 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:06 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:07.573Z",
@@ -2398,7 +2398,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2425,7 +2425,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:07 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:07 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:07.573Z",
@@ -2554,7 +2554,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2581,7 +2581,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:07 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:07 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:08.576Z",
@@ -2710,7 +2710,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2737,7 +2737,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:08 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:08 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:08.576Z",
@@ -2866,7 +2866,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -2893,7 +2893,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:08 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:08 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:09.578Z",
@@ -3022,7 +3022,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3049,7 +3049,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:09 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:09 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:09.579Z",
@@ -3178,7 +3178,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3205,7 +3205,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:09 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:09 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:10.179Z",
@@ -3334,7 +3334,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3361,7 +3361,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:10 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:10 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:10.383Z",
@@ -3490,7 +3490,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3517,7 +3517,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:10 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:10 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:11.500Z",
@@ -3646,7 +3646,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3673,7 +3673,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:11 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:11 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:11.500Z",
@@ -3802,7 +3802,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3829,7 +3829,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:11 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:11 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:12.500Z",
@@ -3883,7 +3883,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -3910,7 +3910,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:12 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:12 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:12.500Z",
@@ -4114,7 +4114,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4141,7 +4141,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:12 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:12 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:13.504Z",
@@ -4270,7 +4270,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4297,7 +4297,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:13 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:13 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:13.504Z",
@@ -4426,7 +4426,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4453,7 +4453,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:13 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:13 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:14.513Z",
@@ -4582,7 +4582,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4609,7 +4609,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:14 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:14 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:14.513Z",
@@ -4738,7 +4738,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4765,7 +4765,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:14 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:14 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:15.191Z",
@@ -4894,7 +4894,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -4921,7 +4921,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:15 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:15 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:15.419Z",
@@ -5050,7 +5050,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5077,7 +5077,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:15 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:15 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:15.800Z",
@@ -5206,7 +5206,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5233,7 +5233,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:16 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:16 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:16.803Z",
@@ -5362,7 +5362,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5389,7 +5389,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:16 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:16 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:16.803Z",
@@ -5518,7 +5518,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5545,7 +5545,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:17 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:17 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:17.806Z",
@@ -5674,7 +5674,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5701,7 +5701,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:17 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:17 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:17.806Z",
@@ -5830,7 +5830,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -5857,7 +5857,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:18 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:18 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:18.811Z",
@@ -5986,7 +5986,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6013,7 +6013,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:18 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:18 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:18.811Z",
@@ -6142,7 +6142,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6169,7 +6169,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:19 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:19 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:19.812Z",
@@ -6298,7 +6298,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6325,7 +6325,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:19 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:19 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:19.812Z",
@@ -6454,7 +6454,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6481,7 +6481,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:20 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:20 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:20.214Z",
@@ -6610,7 +6610,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6637,7 +6637,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:20 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:20 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:21.035Z",
@@ -6766,7 +6766,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6793,7 +6793,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:21 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:21 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:22.039Z",
@@ -6922,7 +6922,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -6949,7 +6949,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:21 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:21 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:22.039Z",
@@ -7078,7 +7078,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -7105,7 +7105,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:22 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:22 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:23.049Z",
@@ -7234,7 +7234,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -7261,7 +7261,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:22 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:22 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:23.049Z",
@@ -7465,7 +7465,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -7492,7 +7492,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:23 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:23 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:24.128Z",
@@ -7546,7 +7546,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -7573,7 +7573,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:23 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:23 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:24.128Z",
@@ -7702,7 +7702,7 @@
                     "type": "file",
                     "hashes": {
                         "SHA-1": "5bf6c98a52e80824d1a234bd5e673edb75c7dda9",
-                        "MD5": "846cdb921841ac671c86350d494abf9c",
+                        "MD5": "51a9c2197ef83d9bac3fa3af5e752243",
                         "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
                     },
                     "name": "c64.exe",
@@ -7729,7 +7729,7 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.90",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:24 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:24 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=51a9c2197ef83d9bac3fa3af5e752243,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:25.132Z",
